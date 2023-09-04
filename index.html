@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+    <img src="./images/logo.svg" alt="Logo X-men" class="logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+
+        <section class="personagem">
+
+            <h1 class="titulo">Selecione um personagem:</h1>
+
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="ciclope" data-name="ciclope" data-description= 'Ele tem o poder de disparar rajadas ópticas por causa de um acidente que acontecu na sua infância, mas não consegue controlá-los.'>
+                    <img src="./images/card-ciclope.jpg" alt="personagem ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="jean grey" data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos.">
+                    <img src="./images/card-jean-grey.jpg" alt="personagem fênix">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="lince negra" data-description="Ela tem o poder de atravessar matéria sólida, campos de energia, rajadas ópticas, continuando intacta, possuindo também o poder de andar no ar." >
+                    <img src="./images/card-lince-negra.jpg" alt="personagem lince-negra">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="magneto" data-description="Tem o poder da magnetocinese. Isto é, controlar metais e objetos metálicos, além de criar campos magnéticos.">
+                    <img src="./images/card-magneto.jpg" alt="personagem magneto">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="noturno" data-description="Nasceu com cauda, orelhas pontudas e o corpo azul. Consegue se teletranportar.">
+                    <img src="./images/card-noturno.jpg" alt="personagem noturno">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="tempestade" data-description="Tem o poder de controlar a força da natureza, muito poderosa, ela é capaz de produzir raios, chuvas , ventos, neblina, entre outros efeitos.">
+                    <img src="./images/card-tempestade.jpg" alt="personagem tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="vampira" data-description="Ela tem o poder de absorver a vitalidade e as memórias de quem toca ou, no caso dos mutantes, os poderes, apenas temporariamente.">
+                    <img src="./images/card-vampira.jpg" alt="personagem vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="wolverine" data-description="Parte de seus ossos são constituídos de Vibranium, um metal muito resistente, sendo capaz utiliza-los como garras. Também possui um alto fator de regeneração.">
+                    <img src="./images/card-wolverine.jpg" alt="personagem wolverine">
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./images/card-ciclope.png" alt="Personagem selecionado">
+
+            <div class="informacoes-personagem">
+
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas por causa de um acidente que acontecu na sua infância, mas não consegue controlá-los.</p>
+            
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="./js/index.js"></script>
+    
+</body>
+
+</html>
